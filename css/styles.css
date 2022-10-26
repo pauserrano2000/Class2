@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Nes-Controller";
-    src: url("/src/NES_Controller.ttf");
+    src: url("src/NES_Controller.ttf");
 }
 
 @font-face {
     font-family: "Nintendo-font";
-    src: url("/src/Nintendo-font.otf");
+    src: url("src/Nintendo-font.otf");
 }
 
 body {
