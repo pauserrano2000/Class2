@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NES Controller</title> 
+    <link href="css/styles.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="flex-container"> 
+        <div class="box" id="box-left"> 
+            <div class="cross" id="upp-cross">
+                <div class="empty-element" id="up-left"></div>
+                <div class="cross-element cross-element-vertical" id="up-center">
+                    <div class="icon" id="up">
+                        <img src="/src/up.svg" alt="UP">
+                    </div>
+                </div>
+                <div class="empty-element" id="up-right"></div>
+            </div>
+            <div class="cross" id="middle-cross">
+                <div class="cross-element cross-element-horizontal" id="middle-left">
+                    <div class="icon" id="left">
+                        <img src="/src/left.svg" alt="LE">
+                    </div>
+                </div>
+                <div class="cross-element" id="middle-center">
+                    <div class="icon" id="circle">
+                        <img src="/src/circle.svg" alt="C">
+                    </div>
+                </div>
+                <div class="cross-element cross-element-horizontal" id="middle-right">
+                    <div class="icon" id="right">
+                        <img src="/src/right.svg" alt="RI">
+                    </div>
+                </div>
+            </div>
+            <div class="cross" id="down-cross">
+                <div class="empty-element" id="down-left"></div>
+                <div class="cross-element cross-element-vertical" id="down-center">
+                    <div class="icon" id="down">
+                        <img src="/src/down.svg" alt="DO">
+                    </div>
+                </div>
+                <div class="empty-element" id="down-right"></div>
+            </div>
+        </div>
+        <div class="box" id="box-center"> 
+            <div class="sub-box" id="sub-box-1"> 
+                
+            </div>
+            <div class="sub-box" id="sub-box-2"> 
+                
+            </div>
+            <div class="sub-box" id="sub-box-3"> 
+                <div id="select">SELECT</div>
+                <div id="start">START</div>
+            </div>
+            <div class="sub-box" id="sub-box-4"> 
+                <div class="sub-sub-box">
+                    <div class="button" id="select-button"></div>
+                    <div class="button" id="start-button"></div>
+                </div>
+            </div>
+            <div class="sub-box" id="sub-box-5"> 
+                
+            </div>
+        </div>
+        <div class="box" id="box-right"> 
+            <div class="logo"> 
+                <div id="nintendo"> Nintendo</div>
+                <div id="reg"> &reg;</div>
+            </div>
+            <div class="button-container">
+                <div class="button-out" id="button-out-1"> 
+                    <div class="button-in" id="button-in-1"></div>
+                </div>
+                <div class="button-out" id="button-out-2">
+                    <div class="button-in" id="button-in-2"></div>
+                </div>
+                
+            </div>
+            <div class="letter-container">
+                <div class="letter" id="b">B</div>
+                <div class="letter" id="a">A</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

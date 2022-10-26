@@ -1,0 +1,3 @@
+##README
+Create a mockup of a videoconsole controller with the aforementioned technologies. It can involve the use of Display Flex or Grid, or even ir raw CSS3, that's up to your choice. Exercise must be hosted on a Github repository and put into production with the Github pages tool.
+https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Nes_controller.svg/1224px-Nes_controller.svg.png?20120322022206
