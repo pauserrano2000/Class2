@@ -1,14 +1,14 @@
 @font-face {
     font-family: "Nes-Controller";
-    src:url("/src/NES_Controller.ttf");
+    src: url("/src/NES_Controller.ttf");
 }
 
 @font-face {
     font-family: "Nintendo-font";
-    src:url("/src/Nintendo-font.otf");
+    src: url("/src/Nintendo-font.otf");
 }
 
-body{
+body {
     height: 100vh;
     width: 100vw;
 
@@ -20,7 +20,7 @@ body{
 .flex-container {
     height: 10em;
     width: 30em;
-    
+
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -30,7 +30,7 @@ body{
 
     border-style: solid;
     border-width: 2.5em 0.8em 0.8em 0.8em;
-    border-color:  rgb(212, 212, 212);
+    border-color: rgb(212, 212, 212);
     border-radius: 0.4em;
 }
 
@@ -55,144 +55,168 @@ body{
 }
 
 #middle-cross {
-    height:1.8em;
+    height: 1.8em;
 }
 
 .cross-element {
     box-sizing: border-box;
-    
+
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-.cross-element-vertical{
+
+.cross-element-vertical {
     height: 2.1em;
-    width: 1.8em;    
+    width: 1.8em;
 
     border: 0.1em solid white;
 }
-.cross-element-horizontal{
+
+.cross-element-horizontal {
     height: 1.8em;
-    width: 2.1em;    
+    width: 2.1em;
 
     border: 0.1em solid white;
 }
+
 .empty-element {
     height: 2.1em;
     width: 2.1em;
 }
+
 #middle-center {
     height: 1.8em;
     width: 1.8em;
 }
 
-.icon{
+.icon {
     box-sizing: border-box;
+
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-#up-center{
+#up-center {
     border-bottom: 0em;
     border-radius: 0.15em 0.15em 0 0;
 }
-#middle-left{
+
+#middle-left {
     border-right: 0em;
     border-radius: 0.15em 0 0 0.15em;
 }
 
-#middle-right{
+#middle-right {
     border-left: 0em;
     border-radius: 0 0.15em 0.15em 0;
 }
 
-#down-center{
+#down-center {
     border-top: 0em;
     border-radius: 0 0 0.15em 0.15em;
 }
 
+#up,
+#down {
+    box-sizing: border-box;
 
-
-#up, #down {
     height: 1.9em;
     width: 1.6em;
+
     border: 0.15em solid rgb(0, 0, 0);
 }
-#left, #right{
+
+#left,
+#right {
     box-sizing: border-box;
+
     height: 1.6em;
     width: 1.9em;
+
     border: 0.15em solid rgb(0, 0, 0);
 }
 
 #box-center {
-    align-items:flex-start;
+    align-items: flex-start;
 }
 
 .sub-box {
-    margin:0.25em;
     height: 1.8em;
     width: 9em;
+
     background-color: grey;
+
     border-radius: 0.5em;
 
+    margin: 0.25em;
+
 }
-#sub-box-1{
+
+#sub-box-1 {
     height: 1.5em;
+
     border-radius: 0em 0em 0.5em 0.5em;
+
     margin-top: 0em;
 }
 
-#sub-box-3{
+#sub-box-3 {
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
-    color:  rgb(252, 0, 6);
+
+    color: rgb(252, 0, 6);
+
     font-family: "Nes-Controller", sans-serif;
 }
 
-#sub-box-4{
+#sub-box-4 {
     height: 3em;
+
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 
-    background-color:  rgb(212, 212, 212);;
+    background-color: rgb(212, 212, 212);
 }
 
-.sub-sub-box{
+.sub-sub-box {
     height: 1.8em;
     width: 8.2em;
+
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
 
     border: 0.1em solid grey;
     border-radius: 0.5em;
 }
 
-.button{
+.button {
     height: 0.7em;
     width: 2.15em;
+
+    background-color: rgb(20, 20, 20);
+
     border: 0.1em solid black;
     border-radius: 1em;
-    background-color: rgb(20, 20, 20);
 }
 
-#sub-box-5{
+#sub-box-5 {
     height: 1.5em;
     border-radius: 0.5em 0.5em 0em 0em;
     margin-bottom: -0.05em;
 }
 
 
-.logo{
+.logo {
     height: 5em;
     width: 10em;
 
@@ -202,20 +226,21 @@ body{
     align-items: flex-start;
 }
 
-#nintendo{
+#nintendo {
     margin-top: 2.3em;
     margin-left: 2em;
+
     font-size: 0.75em;
     font-family: 'Nintendo-font', Verdana, sans-serif;
-    color:  rgb(252, 0, 6);
+    color: rgb(252, 0, 6);
 }
 
 #reg {
     margin-top: 3.6em;
-    font-size: 0.5em;
-    color:  rgb(252, 0, 6);
-}
 
+    font-size: 0.5em;
+    color: rgb(252, 0, 6);
+}
 
 .button-container {
     height: 3.5em;
@@ -223,22 +248,23 @@ body{
 
     display: flex;
     flex-direction: row;
-    justify-content:flex-start;
-    align-items:flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
+
 .button-out {
     height: 3.3em;
     width: 3.3em;
-    
-    background-color: rgb(212, 212, 212);
-    border-radius: 0.3em;
 
     display: flex;
     justify-content: center;
     align-items: center;
+
+    background-color: rgb(212, 212, 212);
+    border-radius: 0.3em;
 }
 
-#button-out-1{
+#button-out-1 {
     margin-left: 0.5em;
     margin-right: 0.5em;
 }
@@ -251,7 +277,7 @@ body{
     border-radius: 50%;
 }
 
-.letter-container{
+.letter-container {
     height: 1.5em;
     width: 5.5em;
 
@@ -261,12 +287,13 @@ body{
     align-items: center;
 }
 
-.letter{
-    color:  rgb(252, 0, 6);
+.letter {
     font-family: "Nes-Controller", sans-serif;
     font-size: 1.3em;
+
+    color: rgb(252, 0, 6);
 }
 
-#b{
+#b {
     margin-left: 0.7em;
 }
